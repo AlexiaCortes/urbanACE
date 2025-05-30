@@ -26,7 +26,7 @@ app.post("/api/order", async (req, res) => {
         email,
         amount: amountInKobo,
         metadata: { orderId },
-        callback_url: https://your-frontend-site.com/order-success?orderId=${orderId}
+        callback_url: https://urbanfastfood-onrender.com/order-success?orderId=${orderId}
       },
       {
         headers: {
